@@ -1,0 +1,6 @@
+A=[2 7 4; 6 9 9; 3 1 1];
+b=[4;8;8];
+
+display("SOLUCION DE LA FACTORIZACION LU");
+
+[L,U,x]= factorizacion_lu(A,b)
